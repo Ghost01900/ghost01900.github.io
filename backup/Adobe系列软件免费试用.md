@@ -41,8 +41,8 @@
 激活完成如上图所示
 
 ### 6.开始使用
-正常情况下现在已经激活成功，可以开始使用了。如果未激活成功，可尝试安装旧版本软件。![mmexport1759764951003.jpg](https://github.com/user-attachments/assets/3c7f46f2-4a9f-4952-ae08-dda3aff70![mmexport1759764952857.jpg](https://github.com/user-attachments/assets/45c0918c-50e4-4ed4-a623-11dbee0703f3)
+正常情况下现在已经激活成功，可以开始使用了。如果未激活成功，可尝试安装旧版本软件。
 
-9d4)
+<img width="1344" height="868" alt="Image" src="https://github.com/user-attachments/assets/5765e8e7-f6c4-4acb-acb5-6941f9f92f12" />
 
-
+<img width="1344" height="868" alt="Image" src="https://github.com/user-attachments/assets/7eb5f8b6-5ec6-4ce8-a975-a501c51ee76b" />
