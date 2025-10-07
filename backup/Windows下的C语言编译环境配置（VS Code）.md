@@ -1,7 +1,7 @@
 ### 一.配置VS Code
 安装必要拓展 ：`C/C++`    `C/C++ Extension Pack`   `Code Runner`
 
-如提示需要信任请点击信任相关选项，你应安装有以下拓展
+如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：
 
 <img width="299" height="461" alt="Image" src="https://github.com/user-attachments/assets/786f693d-2e8a-434d-b4ac-d1cf1e3af143" />
 
@@ -22,7 +22,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 <img width="1270" height="426" alt="Image" src="https://github.com/user-attachments/assets/4f507dce-9c46-4ae9-b4e9-84acf2dd7c48" />
 
-6. 当提示是否继续安装时输入Y
+6. 当提示是否继续安装时输入 Y
 
 <img width="723" height="414" alt="Image" src="https://github.com/user-attachments/assets/a6372b05-d8d6-4b3b-99e1-05d3d78c5a36" />
 
@@ -61,7 +61,7 @@ Win10
 Win11
 <img width="328" height="569" alt="Image" src="https://github.com/user-attachments/assets/e1da27fe-f705-4a84-a630-626e289e2d92" />
 
-使用VS Code打开`main.c`，如提示信任文件，请选择打开，并输入以下内容
+使用VS Code打开`main.c`，如提示是否信任该文件，请选择信任或打开，并输入以下内容
 ```C
 #include <stdio.h>
 int main(void)
@@ -74,11 +74,13 @@ int main(void)
 
 现在点击右上角运行按钮，并选择GCC编译器
 
-您还可以使用VS Code文件夹功能，在VS Code侧边栏资源管理器选择卡中，可以添加信任的文件夹，并进行方便的文件管理操作，并且会在第一次运行后自动将选择的编译器设为默认，无需每次选择
+您还可以使用VS Code文件夹功能，在VS Code侧边栏资源管理器选择卡中，可添加信任的文件夹，以进行更方便的文件管理操作，且在第一次运行后自动将选择的编译器设为默认，无需每次选择
 
 <img width="1414" height="779" alt="Image" src="https://github.com/user-attachments/assets/24d6bec9-fa03-403c-bc0f-f5ca3096c16c" />
 
 在下方的终端中，已正确显示Hello,World!
+
+<img width="1534" height="1059" alt="Image" src="https://github.com/user-attachments/assets/cac9a862-35e4-4d7f-a56a-4a272a8376b5" />
 
 祝贺！你刚刚在 VS Code 中运行了你的第一个C语言程序！
 
