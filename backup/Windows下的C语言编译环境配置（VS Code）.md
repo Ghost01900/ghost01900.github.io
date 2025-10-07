@@ -82,3 +82,4 @@ int main(void)
 
 祝贺！你刚刚在 VS Code 中运行了你的第一个C语言程序！
 
+[原文地址](https://code.visualstudio.com/docs/cpp/config-mingw)
