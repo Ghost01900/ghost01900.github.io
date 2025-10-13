@@ -14,7 +14,7 @@ Microsoft Edge，可以通过设置edge的 flags 和开发者模式来进行开�
 
 
 
-二、安装扩展
+## 二、安装扩展
 
 在电脑或手机端访问 Microsoft Edge 商店，找到想要安装的扩展；
 
