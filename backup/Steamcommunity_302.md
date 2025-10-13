@@ -6,6 +6,10 @@
 ### 说明
 <img width="412" height="142" alt="Image" src="https://github.com/user-attachments/assets/7b8f9319-7271-42c8-ad10-6907edb3c341" />
 
+设置说明
+
+<img width="1048" height="962" alt="Image" src="https://github.com/user-attachments/assets/c5f2b39d-d602-428b-84d5-fc3aa8c2cdaf" />
+
 启动服务 – 启动后台服务
 退出UI – (退出前端界面[服务启动退出UI,后端仍会在后台运行])
 设置 – 进入设置页
