@@ -12,8 +12,8 @@
     </script>
 <meta name="description" content="### 一.配置VS Code
 安装必要拓展 ：`C/C++`    `C/C++ Extension Pack`   `Code Runner`
-
-如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：
+> [!NOTE]
+> 如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：
 
 <img width='299' height='461' alt='Image' src='https://github.com/user-attachments/assets/786f693d-2e8a-434d-b4ac-d1cf1e3af143' />
 
@@ -23,8 +23,8 @@
 <meta property="og:title" content="Windows下的C语言编译环境配置（VS Code）">
 <meta property="og:description" content="### 一.配置VS Code
 安装必要拓展 ：`C/C++`    `C/C++ Extension Pack`   `Code Runner`
-
-如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：
+> [!NOTE]
+> 如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：
 
 <img width='299' height='461' alt='Image' src='https://github.com/user-attachments/assets/786f693d-2e8a-434d-b4ac-d1cf1e3af143' />
 
@@ -71,7 +71,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     font-size: 12px;
 }
 </style>
-
+<style>.markdown-alert{padding:0.5rem 1rem;margin-bottom:1rem;border-left:.25em solid var(--borderColor-default,var(--color-border-default));}.markdown-alert .markdown-alert-title {display:flex;font-weight:var(--base-text-weight-medium,500);align-items:center;line-height:1;}.markdown-alert>:first-child {margin-top:0;}.markdown-alert>:last-child {margin-bottom:0;}</style><style>.markdown-alert.markdown-alert-note {border-left-color:var(--borderColor-accent-emphasis, var(--color-accent-emphasis));background-color:var(--color-accent-subtle);}.markdown-alert.markdown-alert-note .markdown-alert-title {color: var(--fgColor-accent,var(--color-accent-fg));}</style><style>.markdown-alert.markdown-alert-tip {border-left-color:var(--borderColor-success-emphasis, var(--color-success-emphasis));background-color:var(--color-success-subtle);}.markdown-alert.markdown-alert-tip .markdown-alert-title {color: var(--fgColor-success,var(--color-success-fg));}</style>
 
 
 
@@ -103,7 +103,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div class="markdown-body" id="postBody"><h3>一.配置VS Code</h3>
 <p>安装必要拓展 ：<code class="notranslate">C/C++</code>    <code class="notranslate">C/C++ Extension Pack</code>   <code class="notranslate">Code Runner</code></p>
-<p>如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：</p>
+</div>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/786f693d-2e8a-434d-b4ac-d1cf1e3af143"><img width="299" height="461" alt="Image" src="https://github.com/user-attachments/assets/786f693d-2e8a-434d-b4ac-d1cf1e3af143" style="max-width: 100%; height: auto; max-height: 461px;"></a></p>
 <h3>二.配置编译器</h3>
 <p><strong>安装 MinGW-w64 工具链</strong><br>
@@ -145,10 +146,11 @@ gdb --version</pre></div>
 <h3>三.创建 Hello World 应用</h3>
 <p>回到桌面，新建一个文本文件，并将其重命名为 <code class="notranslate">main.c</code></p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/567bdfb4-33da-4147-936b-f088cec256c9"><img width="89" height="86" alt="Image" src="https://github.com/user-attachments/assets/567bdfb4-33da-4147-936b-f088cec256c9" style="max-width: 100%; height: auto; max-height: 86px;"></a></p>
-<p>如未显示拓展名，请在资源管理器查看选项中开启<br>
-Win10<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/1cc9343f-0343-45a0-bf95-000b1cb52f5e"><img width="1125" height="168" alt="Image" src="https://github.com/user-attachments/assets/1cc9343f-0343-45a0-bf95-000b1cb52f5e" style="max-width: 100%; height: auto; max-height: 168px;"></a><br>
-Win11<br>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>如未显示拓展名，请在资源管理器查看选项中开启</p>
+</div>
+<p><strong>Win10</strong><br>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/1cc9343f-0343-45a0-bf95-000b1cb52f5e"><img width="1125" height="168" alt="Image" src="https://github.com/user-attachments/assets/1cc9343f-0343-45a0-bf95-000b1cb52f5e" style="max-width: 100%; height: auto; max-height: 168px;"></a></p>
+<p><strong>Win11</strong><br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e1da27fe-f705-4a84-a630-626e289e2d92"><img width="328" height="569" alt="Image" src="https://github.com/user-attachments/assets/e1da27fe-f705-4a84-a630-626e289e2d92" style="max-width: 100%; height: auto; max-height: 569px;"></a></p>
 <p>使用VS Code打开<code class="notranslate">main.c</code>，如提示是否信任该文件，请选择信任或打开，并输入以下内容</p>
 <div class="highlight highlight-source-c"><pre class="notranslate"><span class="pl-k">#include</span> <span class="pl-s">&lt;stdio.h&gt;</span>
@@ -159,7 +161,8 @@ Win11<br>
     }</pre></div>
 <p>现在按 Ctrl+S 保存文件,您还可以启用<strong>自动保存</strong>以自动保存文件更改，方法是选择文件&gt;自动保存。</p>
 <p>现在点击右上角运行按钮，并选择GCC编译器</p>
-<p>您还可以使用VS Code文件夹功能，在VS Code侧边栏资源管理器选择卡中，可添加信任的文件夹，以进行更方便的文件管理操作，且在第一次运行后自动将选择的编译器设为默认，无需每次选择</p>
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p>您还可以使用VS Code文件夹功能，在VS Code侧边栏资源管理器选择卡中，可添加信任的文件夹，以进行更方便的文件管理操作，且在第一次运行后自动将选择的编译器设为默认，无需每次选择</p>
+</div>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/24d6bec9-fa03-403c-bc0f-f5ca3096c16c"><img width="1414" height="779" alt="Image" src="https://github.com/user-attachments/assets/24d6bec9-fa03-403c-bc0f-f5ca3096c16c" style="max-width: 100%; height: auto; max-height: 779px;"></a></p>
 <p>在下方的终端中，已正确显示Hello,World!</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/cac9a862-35e4-4d7f-a56a-4a272a8376b5"><img width="1534" height="1059" alt="Image" src="https://github.com/user-attachments/assets/cac9a862-35e4-4d7f-a56a-4a272a8376b5" style="max-width: 100%; height: auto; max-height: 1059px;"></a></p>

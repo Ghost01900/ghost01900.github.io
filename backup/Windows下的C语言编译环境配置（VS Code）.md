@@ -1,7 +1,7 @@
 ### 一.配置VS Code
 安装必要拓展 ：`C/C++`    `C/C++ Extension Pack`   `Code Runner`
-
-如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：
+> [!NOTE]
+> 如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：
 
 <img width="299" height="461" alt="Image" src="https://github.com/user-attachments/assets/786f693d-2e8a-434d-b4ac-d1cf1e3af143" />
 
@@ -55,10 +55,13 @@ gdb --version
 
 <img width="89" height="86" alt="Image" src="https://github.com/user-attachments/assets/567bdfb4-33da-4147-936b-f088cec256c9" />
 
-如未显示拓展名，请在资源管理器查看选项中开启
-Win10
+> [!NOTE]
+> 如未显示拓展名，请在资源管理器查看选项中开启
+
+**Win10**
 <img width="1125" height="168" alt="Image" src="https://github.com/user-attachments/assets/1cc9343f-0343-45a0-bf95-000b1cb52f5e" />
-Win11
+
+**Win11**
 <img width="328" height="569" alt="Image" src="https://github.com/user-attachments/assets/e1da27fe-f705-4a84-a630-626e289e2d92" />
 
 使用VS Code打开`main.c`，如提示是否信任该文件，请选择信任或打开，并输入以下内容
@@ -74,7 +77,8 @@ int main(void)
 
 现在点击右上角运行按钮，并选择GCC编译器
 
-您还可以使用VS Code文件夹功能，在VS Code侧边栏资源管理器选择卡中，可添加信任的文件夹，以进行更方便的文件管理操作，且在第一次运行后自动将选择的编译器设为默认，无需每次选择
+> [!TIP]
+> 您还可以使用VS Code文件夹功能，在VS Code侧边栏资源管理器选择卡中，可添加信任的文件夹，以进行更方便的文件管理操作，且在第一次运行后自动将选择的编译器设为默认，无需每次选择
 
 <img width="1414" height="779" alt="Image" src="https://github.com/user-attachments/assets/24d6bec9-fa03-403c-bc0f-f5ca3096c16c" />
 

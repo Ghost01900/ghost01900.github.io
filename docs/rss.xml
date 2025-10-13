@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>个人博客</title><link>https://ghost01900.github.io</link><description>Github：https://github.com/Ghost01900/</description><copyright>个人博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://ghost01900.github.io</link></image><lastBuildDate>Mon, 13 Oct 2025 12:19:27 +0000</lastBuildDate><managingEditor>个人博客</managingEditor><ttl>60</ttl><webMaster>个人博客</webMaster><item><title>Microsoft Edge 手机版安装扩展</title><link>https://ghost01900.github.io/post/Microsoft%20Edge%20-shou-ji-ban-an-zhuang-kuo-zhan.html</link><description>Microsoft Edge 手机版安装扩展/addons
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>个人博客</title><link>https://ghost01900.github.io</link><description>Github：https://github.com/Ghost01900/</description><copyright>个人博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://ghost01900.github.io</link></image><lastBuildDate>Mon, 13 Oct 2025 12:29:22 +0000</lastBuildDate><managingEditor>个人博客</managingEditor><ttl>60</ttl><webMaster>个人博客</webMaster><item><title>Microsoft Edge 手机版安装扩展</title><link>https://ghost01900.github.io/post/Microsoft%20Edge%20-shou-ji-ban-an-zhuang-kuo-zhan.html</link><description>Microsoft Edge 手机版安装扩展/addons
 
 虽然可以安装，但有的扩展可能在移动设备无法正常工作。</description><guid isPermaLink="true">https://ghost01900.github.io/post/Microsoft%20Edge%20-shou-ji-ban-an-zhuang-kuo-zhan.html</guid><pubDate>Mon, 13 Oct 2025 12:18:54 +0000</pubDate></item><item><title>网课自动观看脚本推荐</title><link>https://ghost01900.github.io/post/wang-ke-zi-dong-guan-kan-jiao-ben-tui-jian.html</link><description>&gt; [!NOTE]
 &gt; 本网站提供的脚本可能存在时效性
@@ -136,8 +136,8 @@ pac_user.txt内的域名若远程IP符合对应CDN的IP范围的访问将自动�
 效果: 此时除了打勾规则外,所有经过系统代理且远程IP符合对应CDN的IP范围将自动被重定向到优选IP
 [原文地址](https://www.dogfight360.com/blog/knowledge-base/steamcommunity_302_13_manual/)。</description><guid isPermaLink="true">https://ghost01900.github.io/post/Steamcommunity_302.html</guid><pubDate>Tue, 07 Oct 2025 04:55:15 +0000</pubDate></item><item><title>Windows下的C语言编译环境配置（VS Code）</title><link>https://ghost01900.github.io/post/Windows-xia-de-C-yu-yan-bian-yi-huan-jing-pei-zhi-%EF%BC%88VS%20Code%EF%BC%89.html</link><description>### 一.配置VS Code
 安装必要拓展 ：`C/C++`    `C/C++ Extension Pack`   `Code Runner`
-
-如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：
+&gt; [!NOTE]
+&gt; 如提示是否信任请点击信任相关选项，请检查，您应安装有以下拓展：
 
 &lt;img width='299' height='461' alt='Image' src='https://github.com/user-attachments/assets/786f693d-2e8a-434d-b4ac-d1cf1e3af143' /&gt;
 
