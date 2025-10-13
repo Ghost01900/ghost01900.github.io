@@ -1,8 +1,9 @@
-Microsoft Edge 手机版安装扩展/addons
+> [!WARNING]
+> 虽然可以安装，但有的扩展可能在移动设备无法正常工作和存在兼容性问题。
 
-虽然可以安装，但有的扩展可能在移动设备无法正常工作。Canary 版本可以从 Google Play安装；
+Canary 版本可以从 Google Play安装，可能需要科学上网方式；
 
-Microsoft Edge，可以通过设置edge的 flags 和开发者模式来进行开启。
+
 
 ## 一、启用 Edge 的扩展支持
 
